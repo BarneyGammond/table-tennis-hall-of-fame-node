@@ -16,7 +16,7 @@ const bootstrap = async () => {
     //Tell the app to listen on port 1234
     app.use(restRouter.routes(), restRouter.allowedMethods());
 
-    app.listen(3000);
+    app.listen(8000);
 };
 
 bootstrap();
