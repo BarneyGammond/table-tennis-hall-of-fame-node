@@ -1,4 +1,4 @@
-# Table Tennis Hall of Fame API (Built with Node, Koa and MySQL)
+# Table Tennis Hall of Fame API (Built with Node JS, Koa and MySQL)
 
 This API can be used alongside my [table tennis tournament app](https://github.com/BarneyGammond/table-tennis-tournament) to save the winners of previous tournaments (with stats) and include them in later tournaments. Currently this can only be run locally. A PHP Laravel version of this back-end can be found [here](https://github.com/BarneyGammond/table-tennis-hall-of-fame)
 
