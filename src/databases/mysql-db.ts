@@ -1,0 +1,17 @@
+import { createConnection } from 'typeorm';
+
+export const mysqlDB = async () => {
+    return await createConnection({
+        type     : 'mysql',
+        host     : 'vagrant.dev',
+        username : 'vagrant',
+        password : '',
+        database : 'hall_of_fame',
+        ssl: false,
+        logging: ['query', 'error'],
+        synchronize: true,
+    }).then((connection) => {
+        console.log('Database connection established');
+        
+    });
+}
