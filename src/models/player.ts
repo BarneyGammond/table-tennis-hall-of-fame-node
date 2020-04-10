@@ -12,8 +12,8 @@ import {
 @Entity('players')
 //Export the User class so we can use it elsewhere in our project
 export class Player {
-    @PrimaryGeneratedColumn('uuid')     //Tell Postgre to generate a Unique Key for this column
-    id: string;                         //Name of the column is id and type is string
+    @PrimaryGeneratedColumn()     //Tell Postgre to generate a Unique Key for this column
+    id: number;                         //Name of the column is id and type is string
     @Column({type: 'varchar', length: 150})                     
     name: string;
     @Column('int')
